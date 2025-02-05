@@ -1,0 +1,10 @@
+get config --global user.email "ahmedsalah.iti@gmail.com"
+get config --global user.user "ahmedsalah-iti"
+
+git inint
+git add index.html
+git status//modified
+git commit -m "updated"
+git status//updated
+git remote add origin git@github.com:ahmedsalah-iti/gitlab1.git
+git push -u origin main
