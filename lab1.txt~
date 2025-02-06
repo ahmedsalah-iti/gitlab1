@@ -1,10 +1,19 @@
+ssh-keygen -t ed25519 -C "ahmedsalah.iti@gmail.com"
+cat /home/as/.ssh/id_ed25519.pub
+
 get config --global user.email "ahmedsalah.iti@gmail.com"
 get config --global user.user "ahmedsalah-iti"
 
 git inint
+git branch -m master main
 git add index.html
 git status//modified
 git commit -m "updated"
 git status//updated
+
+https://github.com/new -> Repo name (gitlab1) , Public , Create Repo
+
 git remote add origin git@github.com:ahmedsalah-iti/gitlab1.git
 git push -u origin main
+
+
